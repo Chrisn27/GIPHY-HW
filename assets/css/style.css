@@ -1,0 +1,12 @@
+.item {
+	display: inline-block;
+	margin: 5px;
+}
+
+button {
+	margin: 1px;
+}
+
+#addbutton {
+	margin-top: 5px;
+}
