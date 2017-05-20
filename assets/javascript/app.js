@@ -32,7 +32,7 @@ initialize();
 	console.log("Test");
 	var character = $(this).attr("order-input");
 
-	var url = "http://api.giphy.com/v1/gifs/search";
+	var url = "https://api.giphy.com/v1/gifs/search";
 	url += '?' + $.param({
 		'q': character,
 		'limit': 10,
@@ -49,7 +49,7 @@ initialize();
 			var results = response.data;
 
 				//console.log(url);
-				//console.log(response);
+				console.log(response);
 				//console.log(character);
 
 			for (var i = 0; i < results.length; i++) {
